@@ -1,0 +1,20 @@
+# PHP
+.php_cs.cache
+composer.phar
+/vendor/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project folders
+/config/secrets/
+/design-system/
+/.agent/
+/.agents/
+/node_modules/
