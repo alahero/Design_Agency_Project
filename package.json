@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alahero/Innov8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alahero/Innov8/issues"
+  },
+  "homepage": "https://github.com/alahero/Innov8#readme",
+  "dependencies": {
+    "apify-client": "^2.22.2",
+    "axios": "^1.13.6",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.3.1"
+  }
+}
