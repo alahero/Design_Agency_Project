@@ -22,15 +22,12 @@
                 class="max-w-2xl mx-auto text-lg md:text-xl text-white/50 font-medium leading-relaxed mb-16 opacity-0">
                 We are a high-end digital agency that transforms bold concepts into result-driven cinematic experiences
                 that move with liquid fluidity and technical mastery.
-            </p>
 
             <!-- CTAs -->
             <div id="hero-ctas" class="flex flex-col md:flex-row items-center justify-center gap-8 opacity-0">
                 <a href="#work"
-                    class="group relative px-12 py-6 bg-brand-cyan text-brand-navy font-black uppercase tracking-[0.2em] rounded-full overflow-hidden transition-all duration-300 transform active:scale-95 shadow-xl shadow-brand-cyan/20">
-                    <span class="relative z-10 text-[10px]">View Our Work</span>
-                    <div
-                        class="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
+                    class="group relative px-12 py-6 bg-brand-cyan text-brand-navy font-black uppercase tracking-[0.2em] rounded-full overflow-hidden transition-all duration-300 transform active:scale-95 shadow-xl shadow-brand-cyan/20 text-[10px]">
+                    View Our Work
                 </a>
                 <a href="#services"
                     class="flex items-center gap-4 text-white uppercase tracking-[0.3em] text-[10px] font-black group transition-all duration-300">

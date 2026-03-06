@@ -41,15 +41,10 @@
 
         <!-- Footer Bottom -->
         <div class="flex flex-col md:flex-row justify-between items-center pt-16 border-t border-white/5 gap-12">
-            <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-brand-cyan rounded-full flex items-center justify-center p-2">
-                    <svg viewBox="0 0 160 160" class="w-full h-full fill-white">
-                        <rect x="20" y="20" width="120" height="120" rx="60" />
-                        <path d="M50 50h60v60H50z" fill="#0A1F44" />
-                    </svg>
-                </div>
-                <span class="text-2xl font-black tracking-tighter uppercase text-white">Innov8</span>
-            </div>
+            <a href="./" class="flex items-center">
+                <img src="./public/assets/svg/Innov8_Logo_Reduced.svg" alt="Innov8 Logo"
+                    class="h-8 w-auto brightness-0 invert">
+            </a>
             <p class="text-[10px] text-white/20 uppercase tracking-[0.4em] font-black">© 2026 Innov8 Creations, LLC. ALL
                 RIGHTS RESERVED.</p>
             <div class="flex gap-12">

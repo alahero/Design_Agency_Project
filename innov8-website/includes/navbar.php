@@ -1,15 +1,13 @@
 <nav id="navbar"
     class="fixed top-4 left-4 right-4 z-50 transition-all duration-500 rounded-full bg-white/5 backdrop-blur-xl border border-white/10 px-6 py-4 flex justify-between items-center max-w-7xl mx-auto shadow-2xl">
-    <div class="flex items-center gap-3">
-        <!-- Innov8 Icon -->
-        <div class="w-10 h-10 bg-brand-cyan rounded-full flex items-center justify-center p-2">
-            <svg viewBox="0 0 160 160" class="w-full h-full fill-white">
-                <rect x="20" y="20" width="120" height="120" rx="60" />
-                <path d="M50 50h60v60H50z" fill="#0A1F44" />
-            </svg>
-        </div>
-        <span class="text-2xl font-black uppercase tracking-tighter text-white">Innov8</span>
-    </div>
+    <a href="./" class="flex items-center">
+        <!-- Desktop Logo -->
+        <img src="./public/assets/svg/Innov8_Logo_FullColor.svg" alt="Innov8 Logo"
+            class="hidden md:block h-8 w-auto brightness-0 invert">
+        <!-- Mobile Logo -->
+        <img src="./public/assets/svg/Innov8_Logo_Reduced.svg" alt="Innov8 Logo"
+            class="block md:hidden h-8 w-auto brightness-0 invert">
+    </a>
 
     <!-- Desktop Menu -->
     <div class="hidden md:flex items-center gap-10">
@@ -35,6 +33,10 @@
 <!-- Mobile Overlay -->
 <div id="mobile-menu"
     class="fixed inset-0 bg-brand-navy/95 backdrop-blur-2xl z-[60] flex flex-col items-center justify-center gap-8 translate-y-full transition-transform duration-700 pointer-events-none md:hidden">
+    <!-- Mobile Menu logo -->
+    <div class="absolute top-10 left-10">
+        <img src="./public/assets/svg/Innov8_Logo_Reduced.svg" alt="Innov8 Logo" class="h-8 w-auto brightness-0 invert">
+    </div>
     <?php foreach (['Work', 'Services', 'Brand', 'Contact'] as $item): ?>
         <a href="#<?= strtolower($item) ?>"
             class="mobile-link text-4xl font-black uppercase tracking-tighter text-white hover:text-brand-cyan transition-colors">
